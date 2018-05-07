@@ -1,0 +1,37 @@
+// components/search/search.js
+Component({
+  /**
+   * 组件的属性列表
+   */
+  properties: {
+
+  },
+
+  /**
+   * 组件的初始数据
+   */
+  data: {
+    show: false
+  },
+
+  /**
+   * 组件的方法列表
+   */
+  methods: {
+    onfocus: function(){
+      this.setData({
+        show: true
+      })
+    },
+    onblur: function(){
+      this.setData({
+        show: false
+      })
+    },
+    gotocart: function(){
+      wx.navigateTo({
+        url: '../cart/cart',
+      })
+    }
+  }
+})

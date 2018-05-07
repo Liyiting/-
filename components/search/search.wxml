@@ -1,0 +1,25 @@
+<!--components/search/search.wxml-->
+<view class="nav">
+  <image src="../../image/icon/logo_81.png" class="logo"></image>
+    <input placeholder="搜索" bindfocus="onfocus" bindblur="onblur"></input>
+    <image src="../../image/icon/cart.png" class="cart" bindtap="gotocart">
+      <view class="cart-num">2</view>
+  </image>
+</view>
+<view wx:if="{{show}}" class="block">
+  <view class="history">
+    <view class="title">历史搜索：</view>
+    <view class="content">
+      <view class="history-item">礼盒</view>
+      <view class="history-item">木瓜膏</view>
+    </view>
+  </view>
+  <view class="hot">
+    <view class="title">别人都在搜：</view>
+    <view class="content">
+      <view class="hot-item">叶酸</view>
+      <view class="hot-item">羊奶皂</view>
+      <view class="hot-item">牛肉干</view>
+    </view>    
+  </view>
+</view>

@@ -1,0 +1,111 @@
+<!--pages/classify/classify.wxml-->
+<view class="container">
+  <search></search>
+  <view class="function-bar">
+    <view>综合</view>
+    <view>销量</view>
+    <view>新品</view>
+    <view>排布</view>
+  </view>
+  <view class="tab-container">
+    <view class="tabs">
+      <view class="tab tab-selected" data-name = "rank">畅销榜</view>
+      <view class="tab" data-name = "health">保健</view>
+      <view class="tab" data-name = "child">母婴</view>
+      <view class="tab" data-name = "care">个护</view>
+      <view class="tab" data-name = "cosmetic">美妆</view>
+      <view class="tab" data-name = "food">食品</view>
+    </view>
+    <view class="tab-content">
+      <view class="item">
+        <image src="../../image/products/item-1_thumb.jpg" mode="widthFix"></image>
+        <view class="item-title">Goat 澳洲Soap手工山羊奶皂 椰子油味</view>
+        <view class="price">¥ 15.90</view>
+        <view class="plus">+</view>
+      </view>
+      <view class="item">
+        <image src="../../image/products/item-2_thumb.jpg" mode="widthFix"></image>
+        <view class="item-title">Lucas Papaw 澳洲番木瓜膏滋润保湿万能膏 25g</view>
+        <view class="price">¥ 35.90</view>
+        <view class="plus">+</view>
+      </view>
+      <view class="item">
+        <image src="../../image/products/item-3_thumb.jpg" mode="widthFix"></image>
+        <view class="item-title">Bellabox澳洲彩妆套装化妆品</view>
+        <view class="price">¥ 157.30</view>
+        <view class="plus">+</view>
+      </view>
+      <view class="item">
+        <image src="../../image/products/item-4_thumb.jpg" mode="widthFix"></image>
+        <view class="item-title">Bellabox Chella 柔滑丝光打亮笔 遮瑕笔</view>
+        <view class="price">¥ 148.77</view>
+        <view class="plus">+</view>
+      </view>
+      <view class="item">
+        <image src="../../image/products/item-5_thumb.jpg" mode="widthFix"></image>
+        <view class="item-title">Elevit爱乐维孕妇营养叶酸 复合维生素100片</view>
+        <view class="price">¥ 336.20</view>
+        <view class="plus">+</view>
+      </view>
+      <view class="item">
+        <image src="../../image/products/item-6_thumb.jpg" mode="widthFix"></image>
+        <view class="item-title">Cancer Council宝宝滚珠防晒霜SPF50+ 75ml</view>
+        <view class="price">¥ 88.24</view>
+        <view class="plus">+</view>
+      </view>
+      <view class="item">
+        <image src="../../image/products/item-7_thumb.jpg" mode="widthFix"></image>
+        <view class="item-title">Swisse 男士复合维生素片60粒含B族维生素</view>
+        <view class="price">¥ 249.00</view>
+        <view class="plus">+</view>
+      </view>
+      <view class="item">
+        <image src="../../image/products/item-8_thumb.jpg" mode="widthFix"></image>
+        <view class="item-title">Swisse胶原蛋白片100粒*2瓶</view>
+        <view class="price">¥ 239.00</view>
+        <view class="plus">+</view>
+      </view>
+      <view class="item">
+        <image src="../../image/products/item-9_thumb.jpg" mode="widthFix"></image>
+        <view class="item-title">Blossom麦卢卡蜂蜜 500g</view>
+        <view class="price">¥ 489.6</view>
+        <view class="plus">+</view>
+      </view>
+      <view class="item">
+        <image src="../../image/products/item-10_thumb.jpg" mode="widthFix"></image>
+        <view class="item-title">拜伦牛肉干澳洲进口腌制风干牛肉干500g*2袋</view>
+        <view class="price">¥ 583.09</view>
+        <view class="plus">+</view>
+      </view>
+    </view>
+  </view>
+  <!-- <view class="blocks">
+    <view class="block selected" data-name="brand">品牌</view>
+    <view class="block" data-name = "rank">畅销榜</view>
+    <view class="block" data-name = "health">保健</view>
+    <view class="block" data-name = "child">母婴</view>
+    <view class="block" data-name = "care">个护</view>
+    <view class="block" data-name = "cosmetic">美妆</view>
+  </view>
+  <view class="bar">
+    <view class="bar-item">综合</view>
+    <view class="bar-item">销量</view>
+    <view class="bar-item">新</view>
+    <view class="bar-item">布局</view>
+  </view> -->
+  <!-- <view class="swiper-tab">
+    <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">分类</view>
+    <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">品牌</view>
+  </view>
+  <swiper current="{{currentTab}}" style="height:{{h}}rpx;">
+    <swiper-item>
+      <scroll-view>
+        <view id="green" class="scroll-view-item bc_green"></view>
+    <view id="red"  class="scroll-view-item bc_red"></view>
+    <view id="yellow" class="scroll-view-item bc_yellow"></view>
+    <view id="blue" class="scroll-view-item bc_blue"></view>
+      </scroll-view>
+    </swiper-item>
+    <swiper-item><view>2</view></swiper-item>
+  </swiper> -->
+</view>

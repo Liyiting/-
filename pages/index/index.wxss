@@ -1,0 +1,40 @@
+/**index.wxss**/
+search {
+  width: 96%;
+}
+.index-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 240rpx;
+  margin-bottom: 10rpx;
+  background-color: #ffffff;
+}
+.index-item image {
+  height: 80%;
+  width: 20%;
+}
+.index-item .item-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 80%;
+  width: 60%;
+}
+.item-title {
+  font-size: 30rpx;
+}
+.item-description {
+  font-size: 20rpx;
+  color: #707070;
+}
+/* swiper {
+  width: 100%;
+  background-color: #fff;
+}
+.swiperImage {
+  width: 100%;
+  height: 100%;
+} */

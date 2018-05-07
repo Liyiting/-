@@ -1,0 +1,37 @@
+<!--pages/user/user.wxml-->
+<view class="container">
+  <view class="info">
+    <image src="../../image/dp.jpg"></image>
+
+    <view class="name">
+    <view class="nickname">李小花</view>
+    <view class="id">ID: 000001</view>
+    </view>
+    <view class="info-setting">设置</view>
+  </view>
+  <view class="orders">
+    <image class="icon orders-icon" src="../../image/icon/activity.png"></image>
+    <view class="orders-title">订单</view>
+  </view>
+  <view class="details">
+    <view class="details-item">
+      <image class="icon orders-icon" src="../../image/icon/collection.png"></image>
+      <view>收藏</view>
+      <view class="line"></view>
+    </view>
+    <view class="details-item">
+      <image class="icon orders-icon" src="../../image/icon/brush.png"></image>
+      <view>管理收货地址</view>
+      <view class="line"></view>
+      
+    </view>
+    <view class="details-item">
+      <image class="icon orders-icon" src="../../image/icon/coupons.png"></image>
+      <view>优惠券</view>
+    </view>
+  </view>
+  <view class="setting">
+    <image class="icon orders-icon" src="../../image/icon/setup.png"></image>
+    <view class="orders-title">设置</view>
+  </view>
+</view>

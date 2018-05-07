@@ -1,0 +1,26 @@
+<!--pages/cart/cart.wxml-->
+<view class="container">
+  <view class="nav">
+    <view class="arrow" bindtap="goback">返回</view>
+    <view class="title">购物车</view>
+  </view>
+  <view class="stuff">
+    <block wx:for="{{goods}}">
+      <view class="item">
+      <image src="{{item.imgpath}}"></image>
+      <view class="detail">
+        <view class="name">{{item.name}}</view>
+        <view class="number-bar">
+          <view class="minus" data-num="{{index}}" bindtap="minus">-</view>
+          <view class="number">{{item.number}}</view>
+          <view class="plus" data-num="{{index}}" bindtap="plus">+</view>
+        </view>
+      </view>
+      <view class="price">¥ {{item.unitprice * item.number}}</view>
+      <view class="delete" bindtap="deleteItem">X</view>
+    </view>
+    </block>
+  </view>
+  <view class="total">¥ {{total}}</view>
+  <view class="checkout">结账</view>
+</view>

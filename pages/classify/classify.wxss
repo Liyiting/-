@@ -1,0 +1,146 @@
+/* pages/classify/classify.wxss */
+.container {
+  position: relative;
+}
+search {
+  width: 96%;
+  z-index: 999;
+}
+.function-bar {
+  position: absolute;
+  top: 120rpx;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 84%;
+  height: 80rpx;
+}
+.tab-container{
+  position: absolute;
+  top: 200rpx;
+  left: 0;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+.tabs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 16%;
+  height: 100%;
+}
+.tab {
+  height: 100rpx;
+  width: 90%;
+   margin-bottom: 20rpx; 
+  font-size: 30rpx;
+  color: #da1e2f;
+  font-weight: 500;
+  text-align: center;
+  line-height: 100rpx;
+  background-color: #ffffff;
+  border: 2rpx solid #da1e2f;
+  border-right: none;
+  border-top-left-radius: 20rpx;
+  border-bottom-left-radius: 20rpx;
+}
+.tab-selected {
+  color: #ffffff;
+  background-color: #da1e2f;
+}
+.tab-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 84%;
+  height: 100%;
+  background-color: #ffffff;
+  border-left: 2rpx solid #da1e2f;
+}
+.item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 48%;
+  height: 280rpx;
+  margin-bottom: 10rpx;
+  margin-right: 10rpx;
+  border-right: 2rpx solid #fbe8ea;
+  border-bottom: 2rpx solid #f8d2d5;
+}
+.item image {
+  width: 50%;
+}
+.item-title {
+  width: 90%;
+  text-align: center;
+  font-size: 24rpx;
+}
+.price {
+  font-size: 28rpx;
+  color: #e97882;
+}
+.plus {
+  position: absolute;
+  right: 20rpx;
+  bottom: 10rpx;
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 10rpx;
+  color: #da1e2f;
+  line-height: 26rpx;
+  text-align: center;
+  border: 2rpx solid #da1e2f;
+  border-radius: 17rpx;
+}
+/* .swiper-tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  height: 60rpx;
+  border: 2rpx solid #DA1E2F;
+  border-radius: 10rpx;
+}
+.swiper-tab-item {
+  width: 50%;
+  height: 100%;
+  color: #DA1E2F;
+  line-height: 60rpx;
+  text-align: center;
+}
+.active {
+  color: #ffffff;
+  background-color: #DA1E2F;
+}
+.swiper-tab-item:nth-child(1) {
+  border-right: 2rpx solid #DA1E2F;
+}
+swiper {
+  width: 96%;
+  height: 1200rpx;
+  background-color: plum;
+}
+scroll-view {
+  height: 1200rpx;
+}
+#green{
+  background-color: greenyellow;
+  height: 300rpx;
+}
+#red{
+  background-color: red;
+  height: 300rpx;
+}
+#yellow{
+  background-color: yellow;
+  height: 300rpx;
+}
+#blue{
+  background-color: blue;
+  height: 300rpx;
+} */

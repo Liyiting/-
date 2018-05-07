@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+<search></search>
+  <block wx:for="{{articles}}">
+    <view class="index-item" data-index="{{index}}" bindtap="tap">
+      <image src="{{item.image}}" mode="aspectFit"></image>
+      <view class="item-text">
+        <view class="item-title">{{item.title}}</view>
+        <view class="item-description">{{item.description}}</view>
+      </view>
+    </view>
+  </block>
+</view>
