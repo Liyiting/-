@@ -59,7 +59,10 @@ Page({
       hasUserInfo: true
     })
   },
-  tap: function(e){
+  toArticle: function(e){
     console.log(e.currentTarget.dataset.index)
+    wx.navigateTo({
+      url: '../article/article?index=' + e.currentTarget.dataset.index,
+    })
   }
 })

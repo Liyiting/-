@@ -5,7 +5,8 @@
     "pages/user/user",
     "pages/classify/classify",
     "components/search/search",
-    "pages/cart/cart"
+    "pages/cart/cart",
+    "pages/article/article"
   ],
   "window": {
     "navigationBarBackgroundColor": "#f7f7fa",
