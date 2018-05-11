@@ -20,6 +20,12 @@
     "selectedColor": "#DA1E2F",
     "list": [
       {
+        "pagePath": "pages/article/article",
+        "text": "test",
+        "iconPath": "image/nav/homepage.png",
+        "selectedIconPath": "image/nav/homepage_fill.png"
+      },
+      {
         "pagePath": "pages/index/index",
         "text": "首页",
         "iconPath": "image/nav/homepage.png",

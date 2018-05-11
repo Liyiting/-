@@ -1,2 +1,26 @@
 <!--pages/article/article.wxml-->
-<view class="container"></view>
+<view class="container">
+  <image src="../../image/products/item-1.jpg" mode="aspectFill" class="banner-img"></image>
+  <image src="../../image/dp.jpg" class="dp"></image>
+  <view class="name">
+    小柠檬
+    <view class="recommend">推荐</view>
+  </view>
+  <view class="content">
+     Goat Soap的创办人 因为心疼儿子 深受湿疹等过敏问题所苦，长期被身体瘙痒 以及不知名的脱皮问题所困扰，因此开始致力于开发不含化学起泡剂，不含香精香料的纯天然清洁产品，从而研制出对过敏性皮肤非常有益的山羊奶护肤系列产品。值得一提的是，澳洲的新闻栏目Today Tonight还特别报道了一位小男孩在使用了该系列的产品后，不但全身过敏情况迅速好转，还同时治疗好了他从小就有的哮喘症。
+     <text class="blank"></text>
+     山羊奶系列特别选用 自家农场牧养的山羊奶，融合５种芳疗经常使用的冷压植物油，包括甜杏仁油，葡萄籽油，蓖麻油，棕榈油和橄榄油。以３０％以上的新鲜山羊奶，搭配５０％的冷压橄榄油以及２０％其他植物油的绝妙黄金比例，让每一件产品都特别温和滋润。
+     手工山羊奶皂的制作过程非常繁琐，皂化后要先在模子里停留２４小时，再放置于特殊的阴凉处４－６星期熟成，所以每块手工皂都最少需要１个月的时间才可以制作完成。
+     <text class="blank"></text>     
+     Made with Goats Milk for soft,natural and healthy skin
+产地：澳大利亚
+规格：100g
+功效：对付敏感肌肤，皮肤瘙痒，皮肤保湿效果好
+适用对象：干性皮肤，混合皮肤，敏感肌肤，婴幼儿孕妇均可用
+四款：原味（蓝色）、柠檬香桃木（绿色）、燕麦（橘色）、麦卢卡蜂蜜（红色）
+主要成分： 澳洲农庄新鲜山羊奶，橄榄油，甜杏仁油，葡萄籽油，蓖麻油，棕榈油等（都是非常温和滋润的成分）
+  </view>
+  <view class="item">
+  <image src="../../image/products/item-1_thumb.jpg"></image>
+  </view>
+</view>
